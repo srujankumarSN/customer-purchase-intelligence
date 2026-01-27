@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
 # Set these BEFORE importing kaggle
-os.environ['KAGGLE_USERNAME'] = "srujankumar"
+os.environ['KAGGLE_USERNAME'] = "" # Note: Use KAGGLE_USERNAME, not KAGGLE_API_USERNAME
 os.environ['KAGGLE_KEY'] = "" # Note: Use KAGGLE_KEY, not KAGGLE_API_TOKEN
 
 
