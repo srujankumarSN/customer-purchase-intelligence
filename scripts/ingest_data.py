@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # Set these BEFORE importing kaggle
 os.environ['KAGGLE_USERNAME'] = "srujankumar"
-os.environ['KAGGLE_KEY'] = "KGAT_53b767ebc4300d81616828247f71704a" # Note: Use KAGGLE_KEY, not KAGGLE_API_TOKEN
+os.environ['KAGGLE_KEY'] = "" # Note: Use KAGGLE_KEY, not KAGGLE_API_TOKEN
 
 
 # 1. Load Environment Variables (.env)
