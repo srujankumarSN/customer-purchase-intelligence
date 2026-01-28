@@ -1,0 +1,15 @@
+# Data Engineering & Database
+pandas>=2.2.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9  # Required to connect Python to PostgreSQL
+
+# Machine Learning & Analytics
+numpy>=1.26.0
+scikit-learn>=1.4.0
+joblib>=1.3.0          # For saving/loading .pkl files
+matplotlib>=3.8.0
+seaborn>=0.13.0        # For those correlation heatmaps
+
+# API & Environment
+kaggle>=1.6.0          # To handle the automated data download
+python-dotenv>=1.0.0   # To manage your .env and Kaggle tokens
