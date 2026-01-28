@@ -58,19 +58,19 @@ Phase D: Production Readiness
 
 📂 Project Structure
 
-├── data       # Source CSVs (Local only / .gitignore)
+├── data            # Source CSVs (Local only / .gitignore)
 
-├── sql        # Database Schema & Transformations
+├── sql             # Database Schema & Transformations
 
-├── scripts    # ETL & Ingestion Logic (ingest_data.py)
+├── scripts         # ETL & Ingestion Logic (ingest_data.py)
 
-├── notebooks  # EDA & Model Training (Phase B & C)
+├── notebooks       # EDA & Model Training (Phase B & C)
 
-├── models     # Saved ML Models (.pkl via Git LFS)
+├── models          # Saved ML Models (.pkl via Git LFS)
 
-├── config     # Environment variables (.env)
+├── config          # Environment variables (.env)
 
-└── docs       # Final Report & Visualizations
+└── docs            # Final Report & Visualizations
 
 ---
 
