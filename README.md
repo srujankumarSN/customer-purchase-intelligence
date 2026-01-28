@@ -1,14 +1,17 @@
 # 🛒 E-Commerce Purchase Intent Prediction
+
 How I predicted customer purchases with 97% precision using a 5GB dataset.
 
 ---
 
-🎯 The Objective
+🎯 The Objective:
+
 Built an end-to-end data pipeline to predict customer purchase intent using high-volume behavioral logs. By analyzing how users browse, the system identifies potential buyers with a 0.91 F1-Score, allowing businesses to target high-intent customers in real-time.
 
 ---
 
 🛠️ Tech Stack
+
 Data Engineering: Python (Pandas Chunks), PostgreSQL 18, SQLAlchemy.
 
 Machine Learning: Scikit-learn (Random Forest), NumPy.
