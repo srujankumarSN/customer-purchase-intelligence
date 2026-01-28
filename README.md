@@ -1,4 +1,4 @@
-🛒 E-Commerce Purchase Intent Prediction
+# 🛒 E-Commerce Purchase Intent Prediction
 How I predicted customer purchases with 97% precision using a 5GB dataset.
 
 ---
@@ -47,14 +47,14 @@ Phase D: Production Readiness
 
 📊 Key Results
 
-97% Precision: Extremely low false-positive rate; when the model predicts a purchase, it is almost always right.
+    97% Precision: Extremely low false-positive rate; when the model predicts a purchase, it is almost always right.
 
-0.91 F1-Score: Successfully balanced the 93/7 class imbalance to provide a reliable business tool.
+    0.91 F1-Score: Successfully balanced the 93/7 class imbalance to provide a reliable business tool.
 
-Top Predictors: Identified Total Interactions and Session Duration as the most significant non-leaky indicators of intent.
+    Top Predictors: Identified Total Interactions and Session Duration as the most significant non-leaky indicators of intent.
 
 📂 Project Structure
-Plaintext
+
 ├── data       # Source CSVs (Local only / .gitignore)
 
 ├── sql        # Database Schema & Transformations
@@ -72,10 +72,11 @@ Plaintext
 ---
 
 🚀 Getting Started
-Clone the repo: git clone https://github.com/your-username/customer-purchase-intelligence.git
 
-Install dependencies: pip install -r requirements.txt
+    Clone the repo: git clone https://github.com/your-username/customer-purchase-intelligence.git
 
-Setup Kaggle API: Ensure your kaggle.json is in ~/.kaggle/.
+    Install dependencies: pip install -r requirements.txt
 
-Run Ingestion: python scripts/ingest_data.py
+    Setup Kaggle API: Ensure your kaggle.json is in ~/.kaggle/.
+
+    Run Ingestion: python scripts/ingest_data.py
